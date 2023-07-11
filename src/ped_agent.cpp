@@ -43,7 +43,7 @@ Ped::Tagent::Tagent()
     vmax = distribution(generator);
 
     factorsocialforce = 2.1;
-    factorobstacleforce = 10.0;
+    factorobstacleforce = 3.0; // Was 10. -> 3. is better
     factordesiredforce = 1.0;
     factorlookaheadforce = 1.0;
 
