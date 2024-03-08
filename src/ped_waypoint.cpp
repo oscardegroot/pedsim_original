@@ -72,6 +72,8 @@ Ped::Tvector Ped::Twaypoint::normalpoint(double p1, double p2, double oc11, doub
 /// \return  Tvector The calculated force
 Ped::Tvector Ped::Twaypoint::getForce(double agentX, double agentY, double fromx, double fromy, bool *reached) const
 {
+    (void)fromx;
+    (void)fromy;
     if (type == Ped::Twaypoint::TYPE_NORMAL)
     {
         Tvector diff(x - agentX, y - agentY);

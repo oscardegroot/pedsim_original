@@ -469,6 +469,7 @@ Ped::Tvector Ped::Tagent::lookaheadForce(Ped::Tvector e)
 /// \param   e is a vector defining the direction in which the agent wants to walk to.
 Ped::Tvector Ped::Tagent::myForce(Ped::Tvector e)
 {
+    (void)e;
     Ped::Tvector lf;
     return lf;
 }
