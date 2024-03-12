@@ -11,7 +11,6 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
-#include <iostream>
 
 using namespace std;
 
