@@ -43,13 +43,13 @@ Ped::Tagent::Tagent()
     vmax = distribution(generator);
 
     factorsocialforce = 2.1;
-    factorobstacleforce = 3.0; // Was 10. -> 3. is better
+    factorobstacleforce = 3.0; // 3.0; // Was 10. -> 3. is better
     factordesiredforce = 1.0;
     factorlookaheadforce = 1.0;
 
     obstacleForceSigma = 0.8;
 
-    agentRadius = 0.2;
+    agentRadius = 0.4; // Was 0.2
 
     relaxationTime = 0.5;
 }
